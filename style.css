@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?famille=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: #363636;
+}
+
+h1{
+  font-family: 'Finlandica';
+  font-size: 50px;
+  margin-left: 30px;
+  margin-top: 10px;
+  
+  font-style: italic;
+  padding: 0px;
+  animation: apparition 0.8s ease-out;
+  
+}
+
+@keyframes apparition{
+  from{
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to{
+    opacity: 1;
+    translateY(0px)
+  }
+}
+li{
+  margin-left: 20px;
+  font-family: 'Roboto Condensed','Bebas Neue',Arial,Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  
+  
+  font-style: normal;
+}
+a li:hover{
+  font-weight: bold;
+}
+ul{
+  margin-left: 50px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+  font-family: 'Roboto Condensed';
+  margin-top: 30px;
+  
+}
+
+.navbar{
+  
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px 0px 0px;
+  padding-bottom: 30px;
+  padding-top: -10px;
+  top: 0px;
+  width: 100%;
+  height: 10%;
+  color: white;
+  background-color: #242323;
+  margin-top: 0px;
+  margin: 0;
+  
+}
+
+.fa-user{
+  
+  margin-top: 10px;
+  padding-top: 15px;
+  margin-left: 5px;
+  top: 0px;
+}
+.fa-magnifying-glass{
+  margin-top: 10px;
+  padding-top: 15px;
+  margin-left: 20px;
+  top: 0px;
+}
+
+.box{
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 90%;
+  height: 35%;
+  margin-left: 5%;
+}
+
+.top-games{
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+h3{
+  margin-left: 10px;
+  color: white;
+  font-family: 'Roboto Condensed','Bebas Neue', Arial, Helvetica, sans-serif;
+}
+
+img{
+  width: 250px;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+a img:hover{
+  height: 155px;
+  
+  width: 255px;
+  border: solid 3px #ffffff;
+}
+
+
+
+
+.banner{
+  width: 100%;
+  margin-left: 15px;
+  object-fit: cover;
+}
+
+.games img{
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  margin: 5px;
+  
+}
+
+.games img:hover{
+  width: 155px;
+  height: 205px;
+  border: solid 3px #ffffff;
+  margin: 0px;
+  animation-delay: 2s;
+  
+}
+
+.games{
+  margin-left: 10%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+
+
+
+footer{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: #242323;
+}
+
+.icons{
+  font-size: 25px;
+  margin-right: 20px;
+  margin-top: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.fa-discord{
+  margin-left: 20px;
+}
+
+footer p{
+  font-size: 15px;
+  font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+}
+
+.copy{
+  margin-left: 45px;
+}
+
+
+
+
